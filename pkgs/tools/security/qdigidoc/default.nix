@@ -3,7 +3,7 @@
 
 stdenv.mkDerivation rec {
   name = "qdigidoc-${version}";
-  version = "4.1.0";
+  version = "4.2.0";
 
   src = fetchgit {
     url = "https://github.com/open-eid/DigiDoc4-Client";
