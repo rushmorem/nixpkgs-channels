@@ -8,7 +8,7 @@ stdenv.mkDerivation rec {
   src = fetchgit {
     url = "https://github.com/open-eid/DigiDoc4-Client";
     rev = "v${version}";
-    sha256 = "1iry36h3pfnw2gqjnfhv53i2svybxj8jf18qh486djyai84hjr4d";
+    sha256 = "0ffsis9iwipn6l46qcsxm0xk0v8x0lhzxqyx7sv5zxjhfbraiyhz";
     fetchSubmodules = true;
   };
 
